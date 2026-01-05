@@ -1,0 +1,15 @@
+{
+  "name": "Nail Sizes",
+  "short_name": "NailSizes",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAQCAYAAABAfUpbAAAACXBIWXMAAAsSAAALEgHS3X78AAAAJ0lEQVR4nO3NsQ0AAAgDINc/9K3hQkJk1xg8qJbQy7wQAAAAAABgD0h4A5aJt0b8AAAAASUVORK5CYII=",
+      "sizes": "64x16",
+      "type": "image/png"
+    }
+  ]
+}

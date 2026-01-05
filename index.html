@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nail Sizes</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Nail Sizes</h1>
+    <nav>
+      <button data-route="clients">Clients</button>
+      <button data-route="add">Add New</button>
+      <button data-route="styles">Available Styles</button>
+      <button data-route="backup">Backup</button>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <!-- Dexie (IndexedDB helper) -->
+  <script src="https://unpkg.com/dexie@3.2.6/dist/dexie.min.js"></script>
+  <script src="./db.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
