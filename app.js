@@ -319,7 +319,6 @@ async function renderStyles() {
   appEl.innerHTML = `
     <div class="card">
       <h2 style="margin-top:0;">Available Styles</h2>
-      <small>Images are loaded from /images/ and referenced by filename in the database.</small>
     </div>
     <div class="styles-grid">
       ${styles.map(s => `
@@ -402,3 +401,4 @@ async function render() {
   }
   render();
 })();
+
