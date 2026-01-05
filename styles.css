@@ -19,8 +19,9 @@ hr { border: none; border-top: 1px solid #eee; margin: 12px 0; }
 
 .styles-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
 .style-tile { border: 1px solid #ddd; border-radius: 14px; padding: 10px; }
-.style-tile img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; background: #f3f3f3; }
+.style-tile img { width: 100%; height: 260px; object-fit: cover; border-radius: 10px; background: #f3f3f3; }
 .style-tile .title { margin-top: 8px; font-weight: 600; }
 .style-tile .meta { color: #666; font-size: 13px; }
+
 
 
