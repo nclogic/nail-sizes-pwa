@@ -1,5 +1,5 @@
 // sw.js
-const CACHE_NAME = "nail-sizes-v2";
+const CACHE_NAME = "nail-sizes-v3";
 const ASSETS = [
   "./",
   "./index.html",
@@ -38,4 +38,5 @@ self.addEventListener("fetch", (event) => {
     caches.match(req).then(cached => cached || fetch(req))
   );
 });
+
 
